@@ -1,0 +1,15 @@
+766df3433ec0c83a8e7fbcf7addae677 *DESCRIPTION
+850d7655614adc3178cfae8cf46ab51c *NAMESPACE
+6eea78ac398cceda54e251366d322e06 *NEWS.md
+c5b5536380a4c90b9909175e3a0581d8 *R/env.R
+f1cf77c2e62c72378c2b097296f32760 *R/eval.R
+0c1fee76c2d908089783c8897663b621 *R/mock.R
+b4fe12876c37f8a22cde06e9701eecf0 *R/mockr-package.R
+701231d2de153d5e36a75510cff6208d *R/test.R
+f2cfe76e6aa0ac46c80746f3116b62c1 *R/utils.R
+e3db8c294f30e424731f977d256931db *R/with-mock.R
+182c22d6407e43deedd34f741587ac5b *README.md
+a6dac867cf789b8e696ecb891765a6fa *man/mockr-package.Rd
+28acb0f886d2e142f971d54542a46db1 *man/with_mock.Rd
+e759628ea2d2f3d56f4b132293f03284 *tests/testthat.R
+2ecf46d8b347871b6072aa6edb65044a *tests/testthat/test-mock.R
