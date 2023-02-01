@@ -1,12 +1,12 @@
 Package: mockr
 Title: Mocking in R
-Version: 0.2.0
-Date: 2022-04-02
+Version: 0.2.1
+Date: 2023-01-30
 Authors@R: 
     person(given = "Kirill",
            family = "M\u00fcller",
            role = c("aut", "cre"),
-           email = "krlmlr+r@mailbox.org")
+           email = "kirill@cynkra.com")
 Description: Provides a means to mock a package function, i.e.,
     temporarily substitute it for testing. Designed as a drop-in
     replacement for the now deprecated 'testthat::with_mock()' and
@@ -18,10 +18,10 @@ Imports: rlang, withr
 Suggests: covr, fs, knitr, pkgload, rmarkdown, testthat, usethis
 VignetteBuilder: knitr
 Encoding: UTF-8
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2022-04-02 17:16:35 UTC; kirill
+Packaged: 2023-02-01 04:25:50 UTC; kirill
 Author: Kirill Müller [aut, cre]
-Maintainer: Kirill Müller <krlmlr+r@mailbox.org>
+Maintainer: Kirill Müller <kirill@cynkra.com>
 Repository: CRAN
-Date/Publication: 2022-04-02 18:10:02 UTC
+Date/Publication: 2023-02-01 12:20:02 UTC
