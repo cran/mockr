@@ -1,8 +1,9 @@
-## ---- include = FALSE---------------------------------------------------------
+## ----include = FALSE----------------------------------------------------------
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  error = (.Platform$OS.type == "windows")
+  error = (.Platform$OS.type == "windows"),
+  eval = requireNamespace("usethis", quietly = TRUE)
 )
 
 set.seed(20201218)
@@ -24,7 +25,9 @@ work_with_resource <- function() {
 }
 
 ## ----example-error, error = TRUE----------------------------------------------
+try({
 work_with_resource()
+})
 
 ## ----example-remedy-----------------------------------------------------------
 access_resource_for_test <- function() {
@@ -74,14 +77,18 @@ usethis::proj_set()
 fs::dir_tree()
 
 ## ----run-pkg, error = TRUE----------------------------------------------------
+try({
 pkgload::load_all()
 work_with_resource_pkg()
+})
 
 ## ----test---------------------------------------------------------------------
 usethis::use_testthat()
 
 ## ----error = TRUE-------------------------------------------------------------
+try({
 testthat::test_local(reporter = "location")
+})
 
 ## ----test-manually------------------------------------------------------------
 test_that("Can work with resource", {
